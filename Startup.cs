@@ -31,7 +31,7 @@ namespace ConversionProxy
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc();
             // If using Kestrel:
             services.Configure<KestrelServerOptions>(options =>
             {
@@ -43,7 +43,7 @@ namespace ConversionProxy
             var settings = sp.GetService<ISettingsService>();
 
             services.AddRefitClient<ISonarrProxy>().ConfigureHttpClient(c => c.BaseAddress = new Uri(settings.Settings.SonarrUrl));
-
+            services.AddSingleton<IFolderMappingService, FolderMappingService>();
             this.ConfigureHangfire(services);
         }
 
