@@ -12,6 +12,18 @@ namespace ConversionProxy.Models
 
         public string SonarrApiKey { get; set; }
 
-        public List<SonarrPathMapping> SonarrPathMappings { get; set; }
+        public int MaxConcurrentConversions { get; set; }
+
+        public bool NotifyPlexAutoscan { get; set; }
+
+        public string PlexAutoscanUrl { get; set; }
+
+        public List<PathMapping> SonarrPathMappings { get; set; }
+
+        public string RadarrUrl { get; set; }
+
+        public string RadarrApiKey { get; set; }
+
+        public List<PathMapping> RadarrPathMappings { get; set; }
     }
 }

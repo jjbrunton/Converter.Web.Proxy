@@ -1,25 +1,22 @@
-using System.IO;
 using ConversionProxy.Models;
-using Newtonsoft.Json;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 
 namespace ConversionProxy.Services
 {
     public class FolderMappingService : IFolderMappingService
     {
-        private readonly ISettingsService settingsService;
         private readonly ILogger<FolderMappingService> logger;
 
-        public FolderMappingService(ISettingsService settingsService, ILogger<FolderMappingService> logger)
+        public FolderMappingService(ILogger<FolderMappingService> logger)
         {
-            this.settingsService = settingsService;
             this.logger = logger;
         }
         
-        public string ReplacePathWithMappings(string path)
+        public string ReplacePathWithMappings(string path, List<PathMapping> pathMappings)
         {
             this.logger.LogInformation($"Looking for mappings in {path}");
-            foreach (var mapping in this.settingsService.Settings.SonarrPathMappings)
+            foreach (var mapping in pathMappings)
             {
                 if (path.Contains(mapping.Remote))
                 {

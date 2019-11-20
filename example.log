@@ -1,0 +1,12 @@
+2019-11-20 15:04:03,388  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'Connection string: Filename=Hangfire.db;Mode=Exclusive,  prefix: hangfire'
+ 2019-11-20 15:04:03,412  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for LiteDB job storage:
+ 2019-11-20 15:04:03,421  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2019-11-20 15:04:03,661  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server a05f8192-f62d-496b-9218-ed68792d30bd successfully announced in 142.5802 ms
+ 2019-11-20 15:04:03,681  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server a05f8192-f62d-496b-9218-ed68792d30bd is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2019-11-20 15:04:04,059  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server a05f8192-f62d-496b-9218-ed68792d30bd all the dispatchers started
+ 2019-11-20 15:04:04,273  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 

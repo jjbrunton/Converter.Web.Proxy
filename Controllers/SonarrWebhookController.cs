@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 using ConversionProxy.Models;
 using ConversionProxy.Proxies;
 using ConversionProxy.Services;
+using ConversionProxy.Sonarr.Models;
 using Hangfire;
+using Hangfire.Console;
+using Hangfire.Server;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
@@ -19,21 +23,27 @@ namespace ConversionProxy.Controllers
     [Route("[controller]")]
     public class SonarrWebhookController : ControllerBase
     {
-
         private readonly ILogger<SonarrWebhookController> logger;
         private readonly ISettingsService settingsService;
-        private readonly ISonarrProxy sonarrProxy;
-        private readonly IFolderMappingService folderMappingService;
+        private readonly IDownloadProcesserService<SonarrWebhookPayload> downloadProcesserService;
 
-        public SonarrWebhookController(ILogger<SonarrWebhookController> logger, ISettingsService settingsService, ISonarrProxy sonarrProxy, IFolderMappingService folderMappingService)
+        public SonarrWebhookController(ILogger<SonarrWebhookController> logger, ISettingsService settingsService, IDownloadProcesserService<SonarrWebhookPayload> downloadProcesserService)
         {
+            this.downloadProcesserService = downloadProcesserService;
             this.logger = logger;
             this.settingsService = settingsService;
-            this.sonarrProxy = sonarrProxy;
-            this.folderMappingService = folderMappingService;
         }
 
+        /// <summary>
+        /// Handles a webhook request from Sonarr
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns>A queue result representing the internal queue item for converting the webhook file</returns>
+        /// <response code="200">Returns the internal queue item information</response>
+        /// <response code="400">If the webhook call is not of type Download or Test</response>  
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult Post(SonarrWebhookPayload webhookPayload)
         {
             logger.LogTrace(new EventId(), null, webhookPayload.ToString(), null);
@@ -42,68 +52,32 @@ namespace ConversionProxy.Controllers
             {
                 case "Download":
                 case "Test":
-                    return this.Ok(this.ProcessDownload(webhookPayload));
+                    return this.Ok(this.ProcessDownload(webhookPayload, null));
                 default:
                     this.logger.LogInformation($"Request was not of type Download or Test");
                     return StatusCode(400);
             }
         }
 
-        private QueueResult ProcessDownload(SonarrWebhookPayload importPayload)
+        private QueueResult ProcessDownload(SonarrWebhookPayload importPayload, PerformContext context)
         {
+            context.WriteLine(JsonConvert.SerializeObject(importPayload));
             if (importPayload.EventType == "Test")
             {
                 return new QueueResult()
                 {
                     TargetFilePath = "/test/path",
-                    JobId = BackgroundJob.Enqueue(() => this.ConvertEpisode(importPayload, true))
+                    JobId = BackgroundJob.Enqueue(() => this.downloadProcesserService.ConvertEpisode(importPayload, true, context))
                 };
             }
-
+            context.WriteLine($"Received download process request title: {importPayload.Series.Title} series: {importPayload.Series.Id} path:{importPayload.EpisodeFile.Path}");
             this.logger.LogInformation($"Received download process request title: {importPayload.Series.Title} series: {importPayload.Series.Id} path:{importPayload.EpisodeFile.Path}");
 
             return new QueueResult()
             {
                 TargetFilePath = importPayload.EpisodeFile.Path,
-                JobId = BackgroundJob.Enqueue(() => this.ConvertEpisode(importPayload, false))
+                JobId = BackgroundJob.Enqueue(() => this.downloadProcesserService.ConvertEpisode(importPayload, false, context))
             };
-        }
-
-        public async Task NotifySonarr(SonarrWebhookPayload importPayload, bool isTest)
-        {
-            var path = isTest ? "test.mkv" : importPayload.Series.Path + "/" + importPayload.EpisodeFile.RelativePath;
-            this.logger.LogInformation($"Informing Sonarr of conversion result path: {path}");
-            var response = await this.sonarrProxy.ExecuteCommand(this.settingsService.Settings.SonarrApiKey, new SonarrCommand() {
-                Name = "RescanSeries",
-                SeriesId = isTest ? 10 : importPayload.Series.Id
-            });
-
-            this.logger.LogInformation($"Sonarr response: {response.State}");
-        }
-
-        public async Task ConvertEpisode(SonarrWebhookPayload importPayload, bool isTest)
-        {
-            this.logger.LogInformation($"Conversion beginning");
-            var path = isTest ? "test.mkv" : importPayload.Series.Path + "/" + importPayload.EpisodeFile.RelativePath;
-            try
-            {
-                using (Process converter = new Process())
-                {
-                    converter.StartInfo.UseShellExecute = false;
-                    converter.StartInfo.FileName = this.settingsService.Settings.ConverterLocation;
-                    converter.StartInfo.Arguments = string.Format(this.settingsService.Settings.Arguments, this.folderMappingService.ReplacePathWithMappings(path));
-                    converter.Start();
-                    converter.WaitForExit();
-                    this.logger.LogInformation("Conversion completed");
-                    await this.NotifySonarr(importPayload, isTest);
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-
-            Console.WriteLine("Ending");
         }
     }
 }

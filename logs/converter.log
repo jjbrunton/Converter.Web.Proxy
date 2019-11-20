@@ -1,0 +1,509 @@
+2019-11-20 18:00:29,189  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 17.7597ms 200 application/json
+ 2019-11-20 18:00:31,867  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:31,881  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:31,903  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 29.0508ms 200 application/json
+ 2019-11-20 18:00:31,910  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 36.3146ms 200 application/json
+ 2019-11-20 18:00:34,957  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:34,963  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:35,012  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 53.4442ms 200 application/json
+ 2019-11-20 18:00:35,018  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 53.4638ms 200 application/json
+ 2019-11-20 18:00:38,100  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:38,107  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:38,155  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 54.3525ms 200 application/json
+ 2019-11-20 18:00:38,161  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 60.1652ms 200 application/json
+ 2019-11-20 18:00:40,798  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:40,810  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:40,853  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 54.6118ms 200 application/json
+ 2019-11-20 18:00:40,858  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 54.6583ms 200 application/json
+ 2019-11-20 18:00:44,165  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:44,179  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:44,203  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 38.3252ms 200 application/json
+ 2019-11-20 18:00:44,210  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 37.3307ms 200 application/json
+ 2019-11-20 18:00:46,941  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:46,954  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:46,977  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.7753ms 200 application/json
+ 2019-11-20 18:00:46,983  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 22.4309ms 200 application/json
+ 2019-11-20 18:00:49,892  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:49,898  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:49,927  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 34.2632ms 200 application/json
+ 2019-11-20 18:00:49,934  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 27.8003ms 200 application/json
+ 2019-11-20 18:00:52,893  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:52,899  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:52,946  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 53.4589ms 200 application/json
+ 2019-11-20 18:00:52,958  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 53.3877ms 200 application/json
+ 2019-11-20 18:00:55,907  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:55,920  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:55,947  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 29.9456ms 200 application/json
+ 2019-11-20 18:00:55,954  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 36.6557ms 200 application/json
+ 2019-11-20 18:00:58,748  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:58,754  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:00:58,784  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.3769ms 200 application/json
+ 2019-11-20 18:00:58,797  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.435ms 200 application/json
+ 2019-11-20 18:01:02,214  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:02,234  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:02,261  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 39.5737ms 200 application/json
+ 2019-11-20 18:01:02,270  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 46.2745ms 200 application/json
+ 2019-11-20 18:01:04,750  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:04,757  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:04,808  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 57.3749ms 200 application/json
+ 2019-11-20 18:01:04,815  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 57.4809ms 200 application/json
+ 2019-11-20 18:01:08,040  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:08,046  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:08,090  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 49.2134ms 200 application/json
+ 2019-11-20 18:01:08,103  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 49.2095ms 200 application/json
+ 2019-11-20 18:01:10,817  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:10,830  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:10,855  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.6015ms 200 application/json
+ 2019-11-20 18:01:10,863  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 44.6807ms 200 application/json
+ 2019-11-20 18:01:13,940  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:13,959  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:13,995  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 46.6742ms 200 application/json
+ 2019-11-20 18:01:14,004  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 40.058ms 200 application/json
+ 2019-11-20 18:01:15,969  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 18:01:15,983  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in /mnt/tv/The Durrells/Season 3/The Durrells - S03E05 - Episode 5 WEBDL-1080p.mkv
+ 2019-11-20 18:01:15,999  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Found mapping from /mnt/tv/ to /mnt/gcache/TV/
+ 2019-11-20 18:01:16,059  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 18:01:16,073  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: /mnt/tv/The Durrells/Season 3/The Durrells - S03E05 - Episode 5 WEBDL-1080p.mkv
+ 2019-11-20 18:01:16,091  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:01:16,106  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:01:16,333  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://f859864d.ngrok.io/SonarrWebhook application/json 997
+ 2019-11-20 18:01:16,354  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Post", controller = "SonarrWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Sonarr.Models.SonarrWebhookPayload) on controller ConversionProxy.Controllers.SonarrWebhookController (ConversionProxy).
+ 2019-11-20 18:01:16,387  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy) - Validation state: Valid
+ 2019-11-20 18:01:16,417  INFO ConversionProxy.Controllers.SonarrWebhookController.? [?] - MESSAGE: {"EventType":"Download","Series":{"Id":550,"Title":"The Durrells","Path":"/mnt/tv/The Durrells","TvdbId":308129},"Episodes":[{"Id":52318,"EpisodeNumber":3,"SeasonNumber":3,"Title":"Episode 3","AirDate":"2018-04-01","AirDateUtc":"2018-04-01T19:00:00Z","Quality":"WEBDL-1080p","QualityVersion":1,"ReleaseGroup":"ETHiCS","SceneName":"The.Durrells.S03E03.1080p.AMZN.WEB-DL.DDP2.0.H.264.1-ETHiCS"}],"EpisodeFile":{"Id":68192,"RelativePath":"Season 3/The Durrells - S03E03 - Episode 3 WEBDL-1080p.mkv","Path":"/mnt/stagingstorage/downloads/usenet/completed/TV/The.Durrells.S03E03.1080p.AMZN.WEB-DL.DDP2.0.H.264.1-ETHiCS/2cf5c643e47848ed88d003be668626b1.mkv","Quality":"WEBDL-1080p","QualityVersion":1,"ReleaseGroup":"ETHiCS","SceneName":"The.Durrells.S03E03.1080p.AMZN.WEB-DL.DDP2.0.H.264.1-ETHiCS"},"Release":null,"IsUpgrade":true}
+ 2019-11-20 18:01:16,439  INFO ConversionProxy.Controllers.SonarrWebhookController.? [?] - MESSAGE: Received download process request title: The Durrells series: 550 path:/mnt/stagingstorage/downloads/usenet/completed/TV/The.Durrells.S03E03.1080p.AMZN.WEB-DL.DDP2.0.H.264.1-ETHiCS/2cf5c643e47848ed88d003be668626b1.mkv
+ 2019-11-20 18:01:16,523  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 415.4667ms - Created
+ 2019-11-20 18:01:16,553  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 139.1116ms.
+ 2019-11-20 18:01:16,579  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 478.6267ms - Created
+ 2019-11-20 18:01:16,593  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'ConversionProxy.Models.QueueResult'.
+ 2019-11-20 18:01:16,608  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy) in 231.84ms
+ 2019-11-20 18:01:16,621  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 337.4631ms 200 application/json; charset=utf-8
+ 2019-11-20 18:01:16,655  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 18:01:16,698  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 18:01:16,713  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:01:16,728  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:01:16,776  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:16,789  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:16,890  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 161.5415ms - BadRequest
+ 2019-11-20 18:01:16,912  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 194.5326ms - BadRequest
+ 2019-11-20 18:01:17,084  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 18:01:17,097  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 321.5625ms 200 application/json
+ 2019-11-20 18:01:17,103  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 348.0382ms 200 application/json
+ 2019-11-20 18:01:17,122  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in /mnt/tv/The Durrells/Season 3/The Durrells - S03E07 - Episode 7 WEBDL-1080p.mkv
+ 2019-11-20 18:01:17,136  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Found mapping from /mnt/tv/ to /mnt/gcache/TV/
+ 2019-11-20 18:01:17,159  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '10': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:16.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest, PerformContext performContext) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 59
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 18:01:17,188  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 18:01:17,202  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: /mnt/tv/The Durrells/Season 3/The Durrells - S03E07 - Episode 7 WEBDL-1080p.mkv
+ 2019-11-20 18:01:17,241  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:01:17,256  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:01:17,314  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 18:01:17,329  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in /mnt/tv/The Durrells/Season 3/The Durrells - S03E03 - Episode 3 WEBDL-1080p.mkv
+ 2019-11-20 18:01:17,343  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Found mapping from /mnt/tv/ to /mnt/gcache/TV/
+ 2019-11-20 18:01:17,349  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 88.7565ms - Created
+ 2019-11-20 18:01:17,375  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 151.6071ms - Created
+ 2019-11-20 18:01:17,534  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 18:01:17,556  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 18:01:17,572  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 18:01:17,603  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: /mnt/tv/The Durrells/Season 3/The Durrells - S03E03 - Episode 3 WEBDL-1080p.mkv
+ 2019-11-20 18:01:17,612  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:01:17,639  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:01:17,679  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:01:17,703  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:01:17,763  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 116.6099ms - BadRequest
+ 2019-11-20 18:01:17,836  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 184.7803ms - BadRequest
+ 2019-11-20 18:01:18,088  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '8': an exception occurred. Retry attempt 5 of 10 will be performed in 00:04:46.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest, PerformContext performContext) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 59
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 18:01:18,470  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 767.7412ms - Created
+ 2019-11-20 18:01:18,484  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 829.2187ms - Created
+ 2019-11-20 18:01:18,498  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 18:01:18,513  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 18:01:18,527  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:01:18,541  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:01:18,632  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 90.846ms - BadRequest
+ 2019-11-20 18:01:18,644  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 117.2117ms - BadRequest
+ 2019-11-20 18:01:18,850  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '11': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:28.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest, PerformContext performContext) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 59
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 18:01:19,833  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:19,870  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:19,926  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 64.6499ms 200 application/json
+ 2019-11-20 18:01:19,933  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 103.7475ms 200 application/json
+ 2019-11-20 18:01:23,143  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:23,156  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:23,179  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.9184ms 200 application/json
+ 2019-11-20 18:01:23,186  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 28.8424ms 200 application/json
+ 2019-11-20 18:01:25,746  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:25,762  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:25,786  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 39.011ms 200 application/json
+ 2019-11-20 18:01:25,795  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 25.4567ms 200 application/json
+ 2019-11-20 18:01:29,213  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:29,248  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:29,273  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 61.0389ms 200 application/json
+ 2019-11-20 18:01:29,289  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 67.5992ms 200 application/json
+ 2019-11-20 18:01:31,963  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:31,975  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:31,996  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 21.4548ms 200 application/json
+ 2019-11-20 18:01:32,004  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 40.7786ms 200 application/json
+ 2019-11-20 18:01:34,745  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:34,751  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:34,780  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 33.4079ms 200 application/json
+ 2019-11-20 18:01:34,789  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 40.9736ms 200 application/json
+ 2019-11-20 18:01:37,992  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:37,998  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:38,046  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 53.271ms 200 application/json
+ 2019-11-20 18:01:38,053  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 53.3944ms 200 application/json
+ 2019-11-20 18:01:40,842  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:40,849  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:40,878  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.5727ms 200 application/json
+ 2019-11-20 18:01:40,884  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 28.853ms 200 application/json
+ 2019-11-20 18:01:43,987  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:43,994  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:44,040  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 54.7779ms 200 application/json
+ 2019-11-20 18:01:44,045  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 47.3169ms 200 application/json
+ 2019-11-20 18:01:46,750  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:46,757  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:46,787  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.5925ms 200 application/json
+ 2019-11-20 18:01:46,820  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 43.0294ms 200 application/json
+ 2019-11-20 18:01:48,156  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 18:01:48,170  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in /mnt/tv/NCIS- Los Angeles/Season 11/NCIS - Los Angeles - S11E08 - Human Resources WEBDL-1080p.mkv
+ 2019-11-20 18:01:48,184  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Found mapping from /mnt/tv/ to /mnt/gcache/TV/
+ 2019-11-20 18:01:48,252  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 18:01:48,263  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: /mnt/tv/NCIS- Los Angeles/Season 11/NCIS - Los Angeles - S11E08 - Human Resources WEBDL-1080p.mkv
+ 2019-11-20 18:01:48,275  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:01:48,287  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:01:48,356  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 66.7685ms - Created
+ 2019-11-20 18:01:48,366  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 91.6064ms - Created
+ 2019-11-20 18:01:48,378  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 18:01:48,389  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 18:01:48,403  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:01:48,415  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:01:48,505  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 89.7382ms - BadRequest
+ 2019-11-20 18:01:48,515  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 113.8812ms - BadRequest
+ 2019-11-20 18:01:48,667  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '7': an exception occurred. Retry attempt 6 of 10 will be performed in 00:12:22.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest, PerformContext performContext) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 59
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 18:01:48,714  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 18:01:48,725  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in /mnt/tv/The Durrells/Season 3/The Durrells - S03E03 - Episode 3 WEBDL-1080p.mkv
+ 2019-11-20 18:01:48,743  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Found mapping from /mnt/tv/ to /mnt/gcache/TV/
+ 2019-11-20 18:01:48,785  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 18:01:48,796  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: /mnt/tv/The Durrells/Season 3/The Durrells - S03E03 - Episode 3 WEBDL-1080p.mkv
+ 2019-11-20 18:01:48,809  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:01:48,820  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:01:48,888  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 65.9208ms - Created
+ 2019-11-20 18:01:48,899  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 89.4777ms - Created
+ 2019-11-20 18:01:48,911  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 18:01:48,922  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 18:01:48,933  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:01:48,946  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:01:49,035  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 91.3766ms - BadRequest
+ 2019-11-20 18:01:49,045  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 112.4415ms - BadRequest
+ 2019-11-20 18:01:49,208  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '11': an exception occurred. Retry attempt 2 of 10 will be performed in 00:01:10.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest, PerformContext performContext) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 59
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 18:01:49,763  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:49,785  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:49,810  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 45.7451ms 200 application/json
+ 2019-11-20 18:01:49,828  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 56.6684ms 200 application/json
+ 2019-11-20 18:01:53,011  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:53,030  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 18.1024ms 200 application/json
+ 2019-11-20 18:01:53,042  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:53,060  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 17.8401ms 200 application/json
+ 2019-11-20 18:01:55,761  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:55,786  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:55,812  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 52.6389ms 200 application/json
+ 2019-11-20 18:01:55,833  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 51.0361ms 200 application/json
+ 2019-11-20 18:01:59,020  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:59,026  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:01:59,056  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.5946ms 200 application/json
+ 2019-11-20 18:01:59,062  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.6396ms 200 application/json
+ 2019-11-20 18:02:02,080  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:02,087  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:02,114  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 34.8423ms 200 application/json
+ 2019-11-20 18:02:02,122  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.0174ms 200 application/json
+ 2019-11-20 18:02:04,962  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:04,976  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:04,998  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 36.3213ms 200 application/json
+ 2019-11-20 18:02:05,004  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 28.6914ms 200 application/json
+ 2019-11-20 18:02:07,866  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:07,873  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:07,901  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 33.4301ms 200 application/json
+ 2019-11-20 18:02:07,932  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 65.2026ms 200 application/json
+ 2019-11-20 18:02:10,897  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:10,914  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 17.0515ms 200 application/json
+ 2019-11-20 18:02:10,941  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:10,959  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 16.5977ms 200 application/json
+ 2019-11-20 18:02:13,906  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:13,926  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 19.3606ms 200 application/json
+ 2019-11-20 18:02:13,939  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:13,958  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 19.4514ms 200 application/json
+ 2019-11-20 18:02:16,748  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:16,761  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:16,782  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 34.0351ms 200 application/json
+ 2019-11-20 18:02:16,815  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 27.7779ms 200 application/json
+ 2019-11-20 18:02:19,975  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:19,985  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:20,015  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 39.6477ms 200 application/json
+ 2019-11-20 18:02:20,021  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 39.7702ms 200 application/json
+ 2019-11-20 18:02:23,090  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:23,095  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:23,125  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 30.2104ms 200 application/json
+ 2019-11-20 18:02:23,130  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 37.283ms 200 application/json
+ 2019-11-20 18:02:25,752  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:25,783  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:25,830  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 20.6367ms 200 application/json
+ 2019-11-20 18:02:25,842  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 90.7207ms 200 application/json
+ 2019-11-20 18:02:29,185  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:29,215  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:29,271  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 55.5814ms 200 application/json
+ 2019-11-20 18:02:29,288  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 78.1142ms 200 application/json
+ 2019-11-20 18:02:31,859  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:31,865  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:31,912  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 31.4065ms 200 application/json
+ 2019-11-20 18:02:31,918  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 31.3447ms 200 application/json
+ 2019-11-20 18:02:34,747  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:34,760  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:34,783  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 29.1577ms 200 application/json
+ 2019-11-20 18:02:34,791  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.4799ms 200 application/json
+ 2019-11-20 18:02:37,750  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:37,764  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:37,786  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 28.0197ms 200 application/json
+ 2019-11-20 18:02:37,793  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.1024ms 200 application/json
+ 2019-11-20 18:02:40,761  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:40,768  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:40,803  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 40.6888ms 200 application/json
+ 2019-11-20 18:02:40,818  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 50.1548ms 200 application/json
+ 2019-11-20 18:02:43,751  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:43,764  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:43,787  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 29.0888ms 200 application/json
+ 2019-11-20 18:02:43,795  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 42.8492ms 200 application/json
+ 2019-11-20 18:02:46,974  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:46,989  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:47,046  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 70.6294ms 200 application/json
+ 2019-11-20 18:02:47,082  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 106.4909ms 200 application/json
+ 2019-11-20 18:02:48,909  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 18:02:48,922  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in /mnt/tv/The Durrells/Season 3/The Durrells - S03E05 - Episode 5 WEBDL-1080p.mkv
+ 2019-11-20 18:02:48,936  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Found mapping from /mnt/tv/ to /mnt/gcache/TV/
+ 2019-11-20 18:02:48,986  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 18:02:48,999  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: /mnt/tv/The Durrells/Season 3/The Durrells - S03E05 - Episode 5 WEBDL-1080p.mkv
+ 2019-11-20 18:02:49,013  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:02:49,026  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:02:49,115  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 88.7176ms - Created
+ 2019-11-20 18:02:49,128  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 113.9942ms - Created
+ 2019-11-20 18:02:49,142  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 18:02:49,155  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 18:02:49,169  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:02:49,182  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:02:49,275  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 92.4718ms - BadRequest
+ 2019-11-20 18:02:49,287  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 118.6615ms - BadRequest
+ 2019-11-20 18:02:49,604  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '10': an exception occurred. Retry attempt 4 of 10 will be performed in 00:02:04.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest, PerformContext performContext) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 59
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 18:02:49,750  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:49,763  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:49,786  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.9982ms 200 application/json
+ 2019-11-20 18:02:49,800  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 29.2624ms 200 application/json
+ 2019-11-20 18:02:53,213  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:53,221  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:53,269  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 56.0225ms 200 application/json
+ 2019-11-20 18:02:53,275  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 55.9843ms 200 application/json
+ 2019-11-20 18:02:55,779  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:55,785  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:55,830  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 53.6901ms 200 application/json
+ 2019-11-20 18:02:55,844  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 76.174ms 200 application/json
+ 2019-11-20 18:02:58,746  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:58,753  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:02:58,820  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 55.1449ms 200 application/json
+ 2019-11-20 18:02:58,833  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 80.0068ms 200 application/json
+ 2019-11-20 18:03:01,956  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:01,970  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:02,013  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 56.0559ms 200 application/json
+ 2019-11-20 18:03:02,027  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 57.7465ms 200 application/json
+ 2019-11-20 18:03:04,271  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 18:03:04,285  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in /mnt/tv/The Durrells/Season 3/The Durrells - S03E06 - Episode 6 WEBDL-1080p.mkv
+ 2019-11-20 18:03:04,298  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Found mapping from /mnt/tv/ to /mnt/gcache/TV/
+ 2019-11-20 18:03:04,354  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 18:03:04,367  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: /mnt/tv/The Durrells/Season 3/The Durrells - S03E06 - Episode 6 WEBDL-1080p.mkv
+ 2019-11-20 18:03:04,382  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:03:04,398  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:03:04,478  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 79.8635ms - Created
+ 2019-11-20 18:03:04,491  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 108.5697ms - Created
+ 2019-11-20 18:03:04,505  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 18:03:04,519  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 18:03:04,534  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:03:04,549  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:03:04,655  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 103.5654ms - BadRequest
+ 2019-11-20 18:03:04,668  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 133.1843ms - BadRequest
+ 2019-11-20 18:03:04,841  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '9': an exception occurred. Retry attempt 5 of 10 will be performed in 00:04:41.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest, PerformContext performContext) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 59
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 18:03:04,873  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:04,894  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:04,922  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 18:03:04,960  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 62.1444ms 200 application/json
+ 2019-11-20 18:03:04,976  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in /mnt/tv/The Durrells/Season 3/The Durrells - S03E03 - Episode 3 WEBDL-1080p.mkv
+ 2019-11-20 18:03:04,990  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Found mapping from /mnt/tv/ to /mnt/gcache/TV/
+ 2019-11-20 18:03:05,018  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 137.9052ms 200 application/json
+ 2019-11-20 18:03:05,055  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 18:03:05,076  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: /mnt/tv/The Durrells/Season 3/The Durrells - S03E03 - Episode 3 WEBDL-1080p.mkv
+ 2019-11-20 18:03:05,092  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:03:05,108  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:03:05,180  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 73.897ms - Created
+ 2019-11-20 18:03:05,196  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 102.9251ms - Created
+ 2019-11-20 18:03:05,210  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 18:03:05,225  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 18:03:05,239  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:03:05,255  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:03:05,381  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 126.8182ms - BadRequest
+ 2019-11-20 18:03:05,396  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 154.9331ms - BadRequest
+ 2019-11-20 18:03:05,558  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '11': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:13.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest, PerformContext performContext) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 59
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 18:03:07,952  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:07,965  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:07,989  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 29.5121ms 200 application/json
+ 2019-11-20 18:03:07,996  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 52.668ms 200 application/json
+ 2019-11-20 18:03:10,864  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:10,870  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:10,947  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 56.4998ms 200 application/json
+ 2019-11-20 18:03:10,954  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 56.4147ms 200 application/json
+ 2019-11-20 18:03:13,747  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:13,753  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:13,796  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 50.1434ms 200 application/json
+ 2019-11-20 18:03:13,806  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 50.2372ms 200 application/json
+ 2019-11-20 18:03:16,808  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:16,815  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:16,881  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 55.9276ms 200 application/json
+ 2019-11-20 18:03:16,912  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 80.8609ms 200 application/json
+ 2019-11-20 18:03:19,998  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:20,014  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:20,038  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 55.8857ms 200 application/json
+ 2019-11-20 18:03:20,052  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 39.4094ms 200 application/json
+ 2019-11-20 18:03:23,073  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:23,093  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:23,112  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 39.6096ms 200 application/json
+ 2019-11-20 18:03:23,127  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 34.3114ms 200 application/json
+ 2019-11-20 18:03:25,760  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:25,773  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:25,811  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 44.8919ms 200 application/json
+ 2019-11-20 18:03:25,831  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 59.7928ms 200 application/json
+ 2019-11-20 18:03:28,959  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:28,967  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:29,016  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 57.085ms 200 application/json
+ 2019-11-20 18:03:29,036  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 75.8552ms 200 application/json
+ 2019-11-20 18:03:32,090  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:32,103  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:32,124  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 27.7079ms 200 application/json
+ 2019-11-20 18:03:32,131  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 34.9556ms 200 application/json
+ 2019-11-20 18:03:34,811  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:34,818  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:34,848  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.4526ms 200 application/json
+ 2019-11-20 18:03:34,854  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.4304ms 200 application/json
+ 2019-11-20 18:03:38,189  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:38,196  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:38,245  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 41.2444ms 200 application/json
+ 2019-11-20 18:03:38,252  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 67.0355ms 200 application/json
+ 2019-11-20 18:03:40,878  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:40,885  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:40,955  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 75.7997ms 200 application/json
+ 2019-11-20 18:03:40,961  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 75.8772ms 200 application/json
+ 2019-11-20 18:03:44,129  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:44,135  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:44,165  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.9287ms 200 application/json
+ 2019-11-20 18:03:44,171  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 36.0146ms 200 application/json
+ 2019-11-20 18:03:46,746  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:46,753  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:46,802  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 55.4571ms 200 application/json
+ 2019-11-20 18:03:46,831  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 85.4284ms 200 application/json
+ 2019-11-20 18:03:49,759  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:49,772  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:49,796  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 38.1284ms 200 application/json
+ 2019-11-20 18:03:49,803  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 23.0991ms 200 application/json
+ 2019-11-20 18:03:52,747  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:52,761  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:52,785  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 30.6512ms 200 application/json
+ 2019-11-20 18:03:52,792  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 38.4306ms 200 application/json
+ 2019-11-20 18:03:55,888  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:55,902  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:55,925  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 36.9329ms 200 application/json
+ 2019-11-20 18:03:55,938  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 42.6242ms 200 application/json
+ 2019-11-20 18:03:58,439  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://f859864d.ngrok.io/SonarrWebhook application/json 997
+ 2019-11-20 18:03:58,452  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Post", controller = "SonarrWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Sonarr.Models.SonarrWebhookPayload) on controller ConversionProxy.Controllers.SonarrWebhookController (ConversionProxy).
+ 2019-11-20 18:03:58,467  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy) - Validation state: Valid
+ 2019-11-20 18:03:58,480  INFO ConversionProxy.Controllers.SonarrWebhookController.? [?] - MESSAGE: {"EventType":"Download","Series":{"Id":550,"Title":"The Durrells","Path":"/mnt/tv/The Durrells","TvdbId":308129},"Episodes":[{"Id":52317,"EpisodeNumber":2,"SeasonNumber":3,"Title":"Episode 2","AirDate":"2018-03-25","AirDateUtc":"2018-03-25T19:00:00Z","Quality":"WEBDL-1080p","QualityVersion":1,"ReleaseGroup":"ETHiCS","SceneName":"The.Durrells.S03E02.1080p.AMZN.WEB-DL.DDP2.0.H.264.1-ETHiCS"}],"EpisodeFile":{"Id":68198,"RelativePath":"Season 3/The Durrells - S03E02 - Episode 2 WEBDL-1080p.mkv","Path":"/mnt/stagingstorage/downloads/usenet/completed/TV/The.Durrells.S03E02.1080p.AMZN.WEB-DL.DDP2.0.H.264.1-ETHiCS/3a9753501de148458226cc8b24a6dcb1.mkv","Quality":"WEBDL-1080p","QualityVersion":1,"ReleaseGroup":"ETHiCS","SceneName":"The.Durrells.S03E02.1080p.AMZN.WEB-DL.DDP2.0.H.264.1-ETHiCS"},"Release":null,"IsUpgrade":true}
+ 2019-11-20 18:03:58,493  INFO ConversionProxy.Controllers.SonarrWebhookController.? [?] - MESSAGE: Received download process request title: The Durrells series: 550 path:/mnt/stagingstorage/downloads/usenet/completed/TV/The.Durrells.S03E02.1080p.AMZN.WEB-DL.DDP2.0.H.264.1-ETHiCS/3a9753501de148458226cc8b24a6dcb1.mkv
+ 2019-11-20 18:03:58,509  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 29.0445ms.
+ 2019-11-20 18:03:58,522  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'ConversionProxy.Models.QueueResult'.
+ 2019-11-20 18:03:58,535  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy) in 70.6755ms
+ 2019-11-20 18:03:58,547  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 114.1026ms 200 application/json; charset=utf-8
+ 2019-11-20 18:03:58,756  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:58,762  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:03:58,801  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 39.8775ms 200 application/json
+ 2019-11-20 18:03:58,832  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 75.2395ms 200 application/json
+ 2019-11-20 18:04:01,428  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 18:04:01,441  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in /mnt/tv/The Durrells/Season 3/The Durrells - S03E02 - Episode 2 WEBDL-1080p.mkv
+ 2019-11-20 18:04:01,455  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Found mapping from /mnt/tv/ to /mnt/gcache/TV/
+ 2019-11-20 18:04:01,526  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 18:04:01,538  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: /mnt/tv/The Durrells/Season 3/The Durrells - S03E02 - Episode 2 WEBDL-1080p.mkv
+ 2019-11-20 18:04:01,550  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:04:01,562  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 18:04:02,023  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:04:02,053  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:04:02,075  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 50.7406ms 200 application/json
+ 2019-11-20 18:04:02,107  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 53.8852ms 200 application/json
+ 2019-11-20 18:04:04,539  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 2976.4904ms - Created
+ 2019-11-20 18:04:04,550  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 3000.0852ms - Created
+ 2019-11-20 18:04:04,561  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 18:04:04,573  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 18:04:04,588  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:04:04,602  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 18:04:04,694  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 92.6495ms - BadRequest
+ 2019-11-20 18:04:04,708  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 118.8738ms - BadRequest
+ 2019-11-20 18:04:04,914  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '12': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:20.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest, PerformContext performContext) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 59
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 18:04:05,052  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:04:05,058  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:04:05,088  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.9885ms 200 application/json
+ 2019-11-20 18:04:05,095  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.9791ms 200 application/json
+ 2019-11-20 18:04:08,060  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:04:08,066  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:04:08,114  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 53.7507ms 200 application/json
+ 2019-11-20 18:04:08,121  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 59.8764ms 200 application/json
+ 2019-11-20 18:04:11,047  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:04:11,061  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:04:11,102  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 36.428ms 200 application/json
+ 2019-11-20 18:04:11,115  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 54.9786ms 200 application/json
+ 2019-11-20 18:04:13,747  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:04:13,753  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:7272/jobs/stats application/x-www-form-urlencoded; charset=UTF-8 392
+ 2019-11-20 18:04:13,783  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 34.6644ms 200 application/json
+ 2019-11-20 18:04:13,790  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 34.8661ms 200 application/json
+ 

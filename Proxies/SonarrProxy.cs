@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
 using ConversionProxy.Models;
+using ConversionProxy.Sonarr.Models;
 using Refit;
 
 namespace ConversionProxy.Proxies
 {
-    [Headers("Header-A: 1")]
     public interface ISonarrProxy
     {
         [Post("/api/command")]

@@ -1,5 +1,7 @@
 using System.IO;
 using ConversionProxy.Models;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
 namespace ConversionProxy.Services
@@ -8,12 +10,17 @@ namespace ConversionProxy.Services
     {
         private Settings settings;
 
-        public SettingsService()
+        public SettingsService(IHostingEnvironment env, ILogger<SettingsService> logger)
         {
-            if (File.Exists("config/settings.json"))
+            logger.LogInformation("Loading settings");
+            var configPath = env.ContentRootPath + "/config/settings.json";
+            if (File.Exists(configPath))
             {
-                string fileInput = File.ReadAllText("config/settings.json");
+                string fileInput = File.ReadAllText(configPath);
                 this.settings = JsonConvert.DeserializeObject<Settings>(fileInput);
+                logger.LogInformation($"Settings loaded: {JsonConvert.SerializeObject(this.settings)}");
+            } else {
+                logger.LogError($"Config not found at {configPath}");
             }
         }
 

@@ -1,0 +1,201 @@
+2019-11-20 15:36:50,706  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'Connection string: Filename=Hangfire.db;Mode=Exclusive,  prefix: hangfire'
+ 2019-11-20 15:36:50,734  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for LiteDB job storage:
+ 2019-11-20 15:36:50,743  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2019-11-20 15:36:50,987  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server c8f96196-7e6c-4c85-a6a9-60fee8a536fa successfully announced in 164.3297 ms
+ 2019-11-20 15:36:51,016  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server c8f96196-7e6c-4c85-a6a9-60fee8a536fa is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2019-11-20 15:36:51,373  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server c8f96196-7e6c-4c85-a6a9-60fee8a536fa all the dispatchers started
+ 2019-11-20 15:38:52,616  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'Connection string: Filename=Hangfire.db;Mode=Exclusive,  prefix: hangfire'
+ 2019-11-20 15:38:52,642  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for LiteDB job storage:
+ 2019-11-20 15:38:52,651  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2019-11-20 15:38:52,910  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server e10ef411-0e83-4a4d-b206-56b197b32d03 successfully announced in 163.6731 ms
+ 2019-11-20 15:38:52,928  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server e10ef411-0e83-4a4d-b206-56b197b32d03 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2019-11-20 15:38:53,356  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server e10ef411-0e83-4a4d-b206-56b197b32d03 all the dispatchers started
+ 2019-11-20 15:38:53,524  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 2019-11-20 15:39:40,893  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://f859864d.ngrok.io/SonarrWebhook application/json 287
+ 2019-11-20 15:39:41,260  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Post", controller = "SonarrWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Sonarr.Models.SonarrWebhookPayload) on controller ConversionProxy.Controllers.SonarrWebhookController (ConversionProxy).
+ 2019-11-20 15:39:41,278  INFO ConversionProxy.Services.SettingsService.? [?] - MESSAGE: Loading settings
+ 2019-11-20 15:39:41,310  INFO ConversionProxy.Services.SettingsService.? [?] - MESSAGE: Settings loaded: {"ConverterLocation":"/usr/bin/python","Arguments":"/Users/jjbrunton/sbmp4/manual.py -i \"{0}\" -a","SonarrUrl":"https://tv.jbrunton.co.uk","SonarrApiKey":"1bb3018b72dc4363824565e76592a270","NotifyPlexAutoscan":true,"PlexAutoscanUrl":"http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5","SonarrPathMappings":[{"Local":"/mnt/gcache/TV/","Remote":"/mnt/tv/"}],"RadarrUrl":"https://movies.jbrunton.co.uk","RadarrApiKey":"5070d7c57cae44e49cd8478b1e552b7a","RadarrPathMappings":[{"Local":"/mnt/gcache/Movies/","Remote":"/mnt/movies/"}]}
+ 2019-11-20 15:39:46,258  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy) - Validation state: Valid
+ 2019-11-20 15:39:46,277  INFO ConversionProxy.Controllers.SonarrWebhookController.? [?] - MESSAGE: {"EventType":"Test","Series":{"Id":1,"Title":"Test Title","Path":"C:\\testpath","TvdbId":1234},"Episodes":[{"Id":123,"EpisodeNumber":1,"SeasonNumber":1,"Title":"Test title","AirDate":null,"AirDateUtc":null,"Quality":null,"QualityVersion":0,"ReleaseGroup":null,"SceneName":null}],"EpisodeFile":null,"Release":null,"IsUpgrade":false}
+ 2019-11-20 15:39:46,406  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 131.4242ms.
+ 2019-11-20 15:39:46,430  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'ConversionProxy.Models.QueueResult'.
+ 2019-11-20 15:39:46,480  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy) in 5202.7686ms
+ 2019-11-20 15:39:46,506  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 5610.981ms 200 application/json; charset=utf-8
+ 2019-11-20 15:39:53,454  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 15:39:53,464  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in test.mkv
+ 2019-11-20 15:40:09,713  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 15:40:09,723  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: test.mkv
+ 2019-11-20 15:40:10,077  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:40:10,087  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:40:10,519  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 429.5226ms - Created
+ 2019-11-20 15:40:10,530  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 454.5113ms - Created
+ 2019-11-20 15:40:10,560  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 15:40:10,569  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion ending
+ 2019-11-20 15:40:10,578  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 15:40:10,592  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 15:40:10,601  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 15:40:10,707  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 105.2546ms - BadRequest
+ 2019-11-20 15:40:10,717  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 124.8019ms - BadRequest
+ 2019-11-20 15:40:11,248  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '1': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:34.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 56
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 15:40:56,339  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 15:40:56,353  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in test.mkv
+ 2019-11-20 15:41:13,737  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 15:41:13,750  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: test.mkv
+ 2019-11-20 15:41:13,762  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:41:13,774  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:41:14,016  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 243.2387ms - Created
+ 2019-11-20 15:41:14,026  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 264.516ms - Created
+ 2019-11-20 15:41:14,035  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 15:41:14,074  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion ending
+ 2019-11-20 15:41:14,092  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 15:41:14,107  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 15:41:14,119  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 15:41:14,253  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 131.4439ms - BadRequest
+ 2019-11-20 15:41:14,264  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 158.5797ms - BadRequest
+ 2019-11-20 15:41:14,450  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '1': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:42.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 56
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 15:42:14,483  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 15:42:14,494  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in test.mkv
+ 2019-11-20 15:42:28,463  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 15:42:28,473  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: test.mkv
+ 2019-11-20 15:42:28,483  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:42:28,492  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:42:29,499  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 1005.5555ms - Created
+ 2019-11-20 15:42:29,510  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 1026.2936ms - Created
+ 2019-11-20 15:42:29,521  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 15:42:29,531  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion ending
+ 2019-11-20 15:42:29,542  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 15:42:29,552  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 15:42:29,562  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 15:42:29,651  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 89.304ms - BadRequest
+ 2019-11-20 15:42:29,661  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 109.3472ms - BadRequest
+ 2019-11-20 15:42:29,835  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '1': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:37.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 56
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 15:43:53,537  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 2019-11-20 15:44:14,870  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 15:44:14,881  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in test.mkv
+ 2019-11-20 15:44:31,421  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 15:44:31,435  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: test.mkv
+ 2019-11-20 15:44:31,445  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:44:31,456  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:44:31,717  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 260.667ms - Created
+ 2019-11-20 15:44:31,728  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 282.5211ms - Created
+ 2019-11-20 15:44:31,738  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 15:44:31,748  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion ending
+ 2019-11-20 15:44:31,757  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 15:44:31,767  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 15:44:31,776  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 15:44:31,865  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 88.1202ms - BadRequest
+ 2019-11-20 15:44:31,875  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 107.5712ms - BadRequest
+ 2019-11-20 15:44:32,033  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '1': an exception occurred. Retry attempt 4 of 10 will be performed in 00:03:32.
+ Refit.ApiException: Response status code does not indicate success: 400 (BAD REQUEST).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 56
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 15:44:52,875  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'Connection string: Filename=Hangfire.db;Mode=Exclusive,  prefix: hangfire'
+ 2019-11-20 15:44:52,912  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for LiteDB job storage:
+ 2019-11-20 15:44:52,921  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2019-11-20 15:44:53,139  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server 8da4d476-8371-4274-b117-24bb23482d71 successfully announced in 135.0139 ms
+ 2019-11-20 15:44:53,157  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server 8da4d476-8371-4274-b117-24bb23482d71 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2019-11-20 15:44:53,520  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server 8da4d476-8371-4274-b117-24bb23482d71 all the dispatchers started
+ 2019-11-20 15:45:02,171  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://f859864d.ngrok.io/SonarrWebhook application/json 287
+ 2019-11-20 15:45:02,528  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Post", controller = "SonarrWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Sonarr.Models.SonarrWebhookPayload) on controller ConversionProxy.Controllers.SonarrWebhookController (ConversionProxy).
+ 2019-11-20 15:45:02,543  INFO ConversionProxy.Services.SettingsService.? [?] - MESSAGE: Loading settings
+ 2019-11-20 15:45:02,554  INFO ConversionProxy.Services.SettingsService.? [?] - MESSAGE: Settings loaded: {"ConverterLocation":"/usr/bin/python","Arguments":"/Users/jjbrunton/sbmp4/manual.py -i \"{0}\" -a","SonarrUrl":"https://tv.jbrunton.co.uk","SonarrApiKey":"1bb3018b72dc4363824565e76592a270","NotifyPlexAutoscan":true,"PlexAutoscanUrl":"http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5","SonarrPathMappings":[{"Local":"/mnt/gcache/TV/","Remote":"/mnt/tv/"}],"RadarrUrl":"https://movies.jbrunton.co.uk","RadarrApiKey":"5070d7c57cae44e49cd8478b1e552b7a","RadarrPathMappings":[{"Local":"/mnt/gcache/Movies/","Remote":"/mnt/movies/"}]}
+ 2019-11-20 15:45:02,785  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy) - Validation state: Valid
+ 2019-11-20 15:45:02,804  INFO ConversionProxy.Controllers.SonarrWebhookController.? [?] - MESSAGE: {"EventType":"Test","Series":{"Id":1,"Title":"Test Title","Path":"C:\\testpath","TvdbId":1234},"Episodes":[{"Id":123,"EpisodeNumber":1,"SeasonNumber":1,"Title":"Test title","AirDate":null,"AirDateUtc":null,"Quality":null,"QualityVersion":0,"ReleaseGroup":null,"SceneName":null}],"EpisodeFile":null,"Release":null,"IsUpgrade":false}
+ 2019-11-20 15:45:02,954  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 155.032ms.
+ 2019-11-20 15:45:02,973  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'ConversionProxy.Models.QueueResult'.
+ 2019-11-20 15:45:02,994  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy) in 453.7936ms
+ 2019-11-20 15:45:03,009  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 840.7163ms 200 application/json; charset=utf-8
+ 2019-11-20 15:45:08,617  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 15:45:08,628  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in test.mkv
+ 2019-11-20 15:45:22,510  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 15:45:22,520  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: test.mkv
+ 2019-11-20 15:45:22,590  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:45:22,600  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:45:22,938  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 336.2053ms - Created
+ 2019-11-20 15:45:22,949  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 360.1576ms - Created
+ 2019-11-20 15:45:22,977  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 15:45:22,986  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion ending
+ 2019-11-20 15:45:22,994  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 15:45:23,009  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5/
+ 2019-11-20 15:45:23,019  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5/
+ 2019-11-20 15:45:23,111  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 92.2603ms - NotFound
+ 2019-11-20 15:45:23,121  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 111.5652ms - NotFound
+ 2019-11-20 15:45:23,529  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '2': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:44.
+ Refit.ApiException: Response status code does not indicate success: 404 (NOT FOUND).
+   at Refit.RequestBuilderImplementation.<>c__DisplayClass20_0.<<BuildVoidTaskFuncForMethod>b__0>d.MoveNext() in d:\a\1\s\Refit\RequestBuilderImplementation.cs:line 743
+--- End of stack trace from previous location where exception was thrown ---
+   at ConversionProxy.Services.SonarrProcessorService.ConvertEpisode(SonarrWebhookPayload importPayload, Boolean isTest) in /Users/jjbrunton/Documents/Projects/Personal/ConversionProxy/Services/SonarrProcessorService.cs:line 56
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2019-11-20 15:45:49,603  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'Connection string: Filename=Hangfire.db;Mode=Exclusive,  prefix: hangfire'
+ 2019-11-20 15:45:49,645  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for LiteDB job storage:
+ 2019-11-20 15:45:49,656  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2019-11-20 15:45:50,018  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server a2be8e2d-d573-438b-9154-fd72d4282ffb successfully announced in 270.5737 ms
+ 2019-11-20 15:45:50,044  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server a2be8e2d-d573-438b-9154-fd72d4282ffb is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2019-11-20 15:45:50,391  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server a2be8e2d-d573-438b-9154-fd72d4282ffb all the dispatchers started
+ 2019-11-20 15:46:48,045  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://f859864d.ngrok.io/SonarrWebhook application/json 287
+ 2019-11-20 15:46:48,407  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Post", controller = "SonarrWebhook"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Sonarr.Models.SonarrWebhookPayload) on controller ConversionProxy.Controllers.SonarrWebhookController (ConversionProxy).
+ 2019-11-20 15:46:48,426  INFO ConversionProxy.Services.SettingsService.? [?] - MESSAGE: Loading settings
+ 2019-11-20 15:46:48,438  INFO ConversionProxy.Services.SettingsService.? [?] - MESSAGE: Settings loaded: {"ConverterLocation":"/usr/bin/python","Arguments":"/Users/jjbrunton/sbmp4/manual.py -i \"{0}\" -a","SonarrUrl":"https://tv.jbrunton.co.uk","SonarrApiKey":"1bb3018b72dc4363824565e76592a270","NotifyPlexAutoscan":true,"PlexAutoscanUrl":"http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5","SonarrPathMappings":[{"Local":"/mnt/gcache/TV/","Remote":"/mnt/tv/"}],"RadarrUrl":"https://movies.jbrunton.co.uk","RadarrApiKey":"5070d7c57cae44e49cd8478b1e552b7a","RadarrPathMappings":[{"Local":"/mnt/gcache/Movies/","Remote":"/mnt/movies/"}]}
+ 2019-11-20 15:46:48,660  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy) - Validation state: Valid
+ 2019-11-20 15:46:48,677  INFO ConversionProxy.Controllers.SonarrWebhookController.? [?] - MESSAGE: {"EventType":"Test","Series":{"Id":1,"Title":"Test Title","Path":"C:\\testpath","TvdbId":1234},"Episodes":[{"Id":123,"EpisodeNumber":1,"SeasonNumber":1,"Title":"Test title","AirDate":null,"AirDateUtc":null,"Quality":null,"QualityVersion":0,"ReleaseGroup":null,"SceneName":null}],"EpisodeFile":null,"Release":null,"IsUpgrade":false}
+ 2019-11-20 15:46:48,798  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 125.4596ms.
+ 2019-11-20 15:46:48,816  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'ConversionProxy.Models.QueueResult'.
+ 2019-11-20 15:46:48,843  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action ConversionProxy.Controllers.SonarrWebhookController.Post (ConversionProxy) in 421.728ms
+ 2019-11-20 15:46:48,858  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 816.0783ms 200 application/json; charset=utf-8
+ 2019-11-20 15:46:50,522  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion beginning
+ 2019-11-20 15:46:50,534  INFO ConversionProxy.Services.FolderMappingService.? [?] - MESSAGE: Looking for mappings in test.mkv
+ 2019-11-20 15:47:04,255  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion completed
+ 2019-11-20 15:47:04,265  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Informing Sonarr of conversion result path: test.mkv
+ 2019-11-20 15:47:04,337  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:47:04,346  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://tv.jbrunton.co.uk/api/command
+ 2019-11-20 15:47:04,678  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 330.056ms - Created
+ 2019-11-20 15:47:04,689  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedISonarrProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 352.2707ms - Created
+ 2019-11-20 15:47:04,718  INFO ConversionProxy.Services.SonarrService.? [?] - MESSAGE: Sonarr response: queued
+ 2019-11-20 15:47:04,727  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Conversion ending
+ 2019-11-20 15:47:04,736  INFO ConversionProxy.Services.RadarrService.? [?] - MESSAGE: Notifying Plex Autoscan
+ 2019-11-20 15:47:04,750  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 15:47:04,759  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST http://5.9.155.51:3467/663a29fafd2a4549af91018b2c0816c5
+ 2019-11-20 15:47:04,851  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler.? [?] - MESSAGE: Received HTTP response after 92.4115ms - OK
+ 2019-11-20 15:47:04,861  INFO System.Net.Http.HttpClient.ConversionProxy.Proxies.AutoGeneratedIPlexAutoscanProxy, ConversionProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 110.634ms - OK
+ 2019-11-20 15:47:51,676 ERROR Hangfire.Processing.BackgroundExecution.? [?] - MESSAGE: Execution DelayedJobScheduler is in the Failed state now due to an exception, execution will be retried no more than in 00:00:04
+ Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'Could not place a lock on the resource 'HangFire:locks:schedulepoller': The lock request timed out.' resource.
+   at Hangfire.LiteDB.LiteDbDistributedLock.Acquire(TimeSpan timeout)
+   at Hangfire.LiteDB.LiteDbDistributedLock..ctor(String resource, TimeSpan timeout, HangfireDbContext database, LiteDbStorageOptions storageOptions)
+   at Hangfire.LiteDB.LiteDbConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.DelayedJobScheduler.UseConnectionDistributedLock[T](JobStorage storage, Func`2 action)
+   at Hangfire.Server.DelayedJobScheduler.Execute(BackgroundProcessContext context)
+   at Hangfire.Server.BackgroundProcessDispatcherBuilder.ExecuteProcess(Guid executionId, Object state)
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state)
