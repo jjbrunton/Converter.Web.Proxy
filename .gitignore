@@ -30,6 +30,7 @@ launchSettings.json
 x64/
 x86/
 build/
+logs/
 publish/
 bld/
 [Bb]in/
