@@ -1,5 +1,6 @@
 # ASP.NET Core
 
+
 # Build and test ASP.NET Core projects targeting .NET Core.
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
@@ -19,10 +20,16 @@ steps:
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(Build.SourcesDirectory)'
-    Contents: 'bin/release/netcoreapp2.1/$(architecture)/**'
+    Contents: 'bin/Release/netcoreapp2.1/$(architecture)/publish/*'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
     CleanTargetFolder: true
     OverWrite: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'release'
+    publishLocation: 'Container'
 - task: GitHubRelease@1
   inputs:
     gitHubConnection: 'Github'
