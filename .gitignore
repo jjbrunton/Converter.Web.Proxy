@@ -13,6 +13,7 @@ nupkg/
 
 settings.json
 *.mkv
+*.mp4
 
 # User-specific files
 *.suo
