@@ -1,0 +1,23 @@
+{
+  "ConverterLocation": "/usr/bin/python",
+  "Arguments": "/opt/sma/manual.py -i \"{0}\" -a",
+  "MaxConcurrentConversions": 2,
+  "NotifyPlexAutoscan": true,
+  "PlexAutoscanUrl": "http://autoscanurl",
+  "SonarrUrl": "https://sonarr",
+  "SonarrApiKey": "replaceme",
+  "SonarrPathMappings": [
+    {
+      "local": "/mnt/actual/TV/",
+      "remote": "/mnt/tv/"
+    }
+  ],
+  "RadarrUrl": "https://radarr",
+  "RadarrApiKey": "replaceme",
+  "RadarrPathMappings": [
+    {
+      "local": "/mnt/actual/Movies/",
+      "remote": "/mnt/movies/"
+    }
+  ]
+}
