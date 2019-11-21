@@ -1,6 +1,4 @@
 # ASP.NET Core
-
-
 # Build and test ASP.NET Core projects targeting .NET Core.
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
@@ -15,6 +13,13 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'Sonarcloud'
+    organization: 'jjbrunton'
+    scannerMode: 'MSBuild'
+    projectKey: 'jjbrunton_Converter.Web.Proxy'
+
 - script: dotnet publish --configuration $(buildConfiguration) -r $(architecture)
   displayName: 'dotnet build $(buildConfiguration)'
 - task: CopyFiles@2
@@ -30,12 +35,10 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'release'
     publishLocation: 'Container'
-- task: GitHubRelease@1
+
+- task: SonarCloudAnalyze@1
+
+- task: SonarCloudPublish@1
   inputs:
-    gitHubConnection: 'Github'
-    repositoryName: '$(Build.Repository.Name)'
-    action: 'create'
-    target: '$(Build.SourceVersion)'
-    tagSource: 'gitTag'
-    changeLogCompareToRelease: 'lastFullRelease'
-    changeLogType: 'commitBased'
+    pollingTimeoutSec: '300'
+    
