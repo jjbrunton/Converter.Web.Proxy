@@ -83,7 +83,9 @@ namespace ConversionProxy
             loggerFactory.AddLog4Net();
             
             app.UseMvc();
-            var options = new BackgroundJobServerOptions { WorkerCount = settingsService.Settings.MaxConcurrentConversions };
+            var options = new BackgroundJobServerOptions { 
+                WorkerCount = settingsService.Settings.MaxConcurrentConversions
+             };
             app.UseHangfireDashboard("/jobs", new DashboardOptions
             {
                 Authorization = new [] { new AnonymousDashboardFilter() }

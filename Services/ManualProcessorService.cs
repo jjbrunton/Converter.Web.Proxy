@@ -1,10 +1,12 @@
 using System;
 using System.Diagnostics;
+using System.IO;
 using System.Threading.Tasks;
 using ConversionProxy.Models;
 using ConversionProxy.Proxies;
 using ConversionProxy.Services;
 using Converter.Web.Proxy.Models;
+using Hangfire;
 using Hangfire.Console;
 using Hangfire.Server;
 using Microsoft.Extensions.Logging;
@@ -23,6 +25,7 @@ namespace Converter.Web.Proxy.Services {
             this.logger = logger;
         }
 
+        [AutomaticRetry(Attempts = 3)]
         public async Task ConvertEpisode (ManualPayload importPayload, bool isTest, PerformContext performContext) {
             this.logger.LogInformation ($"Conversion beginning");
             performContext.WriteLine ($"Conversion beginning");
@@ -45,7 +48,7 @@ namespace Converter.Web.Proxy.Services {
                 this.logger.LogInformation ("Notifying Plex Autoscan");
                 var request = new PlexAutoscanPayload () {
                     EventType = "Manual",
-                    Filepath = importPayload.Filepath
+                    Filepath = Path.GetDirectoryName(importPayload.Filepath)
                 };
                 performContext.WriteLine ($"Notifying Plex Autoscan with payload: {JsonConvert.SerializeObject(request)}");
                 await this.plexAutoscanProxy.Notify (request);

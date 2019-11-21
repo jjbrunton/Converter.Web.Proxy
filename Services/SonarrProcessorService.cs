@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using ConversionProxy.Models;
 using ConversionProxy.Proxies;
+using Hangfire;
 using Hangfire.Console;
 using Hangfire.Server;
 using Microsoft.Extensions.Logging;
@@ -30,6 +31,7 @@ namespace ConversionProxy.Services
             this.logger = logger;
         }
 
+        [AutomaticRetry(Attempts = 3)]
         public async Task ConvertEpisode(SonarrWebhookPayload importPayload, bool isTest, PerformContext performContext)
         {
             this.logger.LogInformation($"Conversion beginning");
