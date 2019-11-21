@@ -16,6 +16,8 @@ using ConversionProxy.Filters;
 using Hangfire.LiteDB;
 using Microsoft.Extensions.Logging;
 using Hangfire.Console;
+using Converter.Web.Proxy.Models;
+using Converter.Web.Proxy.Services;
 
 namespace ConversionProxy
 {
@@ -53,6 +55,7 @@ namespace ConversionProxy
             services.AddScoped<INotificationService<RadarrWebhookPayload>, RadarrService>();
             services.AddScoped<IDownloadProcesserService<RadarrWebhookPayload>, RadarrProcessorService>();
             services.AddScoped<IDownloadProcesserService<SonarrWebhookPayload>, SonarrProcessorService>();
+            services.AddScoped<IDownloadProcesserService<ManualPayload>, ManualProcessorService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ConversionProxy", Version = "v1" });
