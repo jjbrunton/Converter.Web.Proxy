@@ -22,13 +22,31 @@ steps:
 
 - script: dotnet publish --configuration $(buildConfiguration) -r $(architecture)
   displayName: 'dotnet build $(buildConfiguration)'
+
+
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(Build.SourcesDirectory)'
-    Contents: 'bin/Release/netcoreapp2.1/$(architecture)/publish/*'
+    Contents: 'bin/Release/netcoreapp2.1/$(architecture)/publish/**'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
     CleanTargetFolder: true
     OverWrite: true
+
+- task: GitHubRelease@1
+  inputs:
+    gitHubConnection: 'Github'
+    repositoryName: 'jjbrunton/Converter.Web.Proxy'
+    action: 'create'
+    target: '$(Build.SourceVersion)'
+    tagSource: 'userSpecifiedTag'
+    tag: 'develop'
+    assets: '$(Build.ArtifactStagingDirectory)/bin/Release/netcoreapp2.1/$(architecture)/publish/*'
+    changeLogCompareToRelease: 'lastFullRelease'
+    changeLogType: 'commitBased'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    CleanTargetFolder: true
+    OverWrite: true
+
 
 - task: PublishBuildArtifacts@1
   inputs:
