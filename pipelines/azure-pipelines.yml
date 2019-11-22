@@ -32,6 +32,14 @@ steps:
     CleanTargetFolder: true
     OverWrite: true
 
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/bin/Release/netcoreapp2.1/$(architecture)/publish'
+    includeRootFolder: false
+    archiveType: 'tar'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/develop.tar.gz'
+    replaceExistingArchive: true
+
 - task: GitHubRelease@1
   inputs:
     gitHubConnection: 'Github'
@@ -40,7 +48,7 @@ steps:
     target: '$(Build.SourceVersion)'
     tagSource: 'userSpecifiedTag'
     tag: 'develop'
-    assets: '$(Build.ArtifactStagingDirectory)/bin/Release/netcoreapp2.1/$(architecture)/publish/*'
+    assets: '$(Build.ArtifactStagingDirectory)/develop.tar.gz'
     changeLogCompareToRelease: 'lastFullRelease'
     changeLogType: 'commitBased'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
@@ -50,7 +58,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/develop.tar.gz'
     ArtifactName: 'release'
     publishLocation: 'Container'
 
